@@ -1,0 +1,30 @@
+{
+  "name": "corporate_repo",
+  "version": "1.0.0",
+  "description": "корпоративная страница сайта",
+  "main": "gulp_config.js",
+  "dependencies": {
+    "autoprefixer": "^6.7.7",
+    "browser-sync": "^2.18.8",
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^6.4.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^3.1.0",
+    "normalize": "^0.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "gulp build",
+    "start": "npm run build && gulp serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/halvomez/corporate.git"
+  },
+  "author": "Харитонов Алексей",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/halvomez/corporate/issues"
+  },
+  "homepage": "https://github.com/halvomez/corporate#readme"
+}
