@@ -14,8 +14,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "build": "gulp build",
-    "start": "npm run build && gulp serve"
+    "start": "gulp serve"
   },
   "repository": {
     "type": "git",
