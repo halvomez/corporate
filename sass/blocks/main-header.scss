@@ -1,17 +1,15 @@
-.center {
-  width: 1140px;
-  margin: 0 auto; }
-
 .main-header {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-top: 220px;
-  min-height: 810px; }
+  min-height: 810px;
+}
 
 .main-header h2 {
   font-size: 60px;
-  text-align: center; }
+  text-align: center;
+}
 
 .play {
   box-sizing: border-box;
@@ -21,8 +19,8 @@
   border: none;
   border-radius: 50%;
   margin-bottom: 40px;
-  position: relative; }
-  .play::before {
+  position: relative;
+  &::before {
     position: absolute;
     content: "";
     box-sizing: border-box;
@@ -31,17 +29,9 @@
     top: 20px;
     left: 22px;
     border: 10px solid transparent;
-    border-left: 20px solid #ffffff; }
-  .play:active::before {
-    border-left: 20px solid #000000; }
-
-.btn {
-  box-sizing: border-box;
-  width: 190px;
-  padding-top: 16px;
-  min-height: 50px;
-  font-size: 16px;
-  color: #ffffff;
-  text-decoration: none;
-  background-color: #fb8686;
-  text-align: center; }
+    border-left: 20px solid #ffffff;
+  }
+  &:active::before {
+    border-left: 20px solid #000000;
+  }
+}
