@@ -1,0 +1,17 @@
+.title {
+  font-size: 16px;
+  color: $elem-color;
+  text-transform: uppercase;
+}
+
+.subtitle {
+  font-size: 40px;
+  & span {
+    color: $elem-color;
+  }
+}
+
+.info {
+  font-size: 16px;
+  color: #282828;
+}

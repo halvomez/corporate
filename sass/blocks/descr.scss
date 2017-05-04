@@ -1,0 +1,23 @@
+.descr {
+  min-height: 720px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.descr__block {
+  box-sizing: border-box;
+  width: 50%;
+  padding: 180px 140px 170px;
+  & p {
+    margin: 0 0 40px 0;
+  }
+}
+
+.descr__sideblock {
+  background-image: linear-gradient(-45deg, $elem-color 40%, $back-color 40%);
+  width: 40%;
+}
+
+.descr .info {
+  margin-bottom: 20px;
+}
