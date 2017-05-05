@@ -108,3 +108,12 @@ body {
 
 .feature {
   width: 350px; }
+
+.design {
+  padding: 135px 200px 145px 740px; }
+
+.design .title {
+  margin: 0 0 18px 0; }
+
+.design .subtitle {
+  margin: 0 0 40px 0; }
