@@ -1,0 +1,24 @@
+.features {
+  background-color: $back-color;
+  padding-top: 130px;
+  padding-bottom: 180px;
+}
+
+.features .title,
+.features .subtitle {
+  text-align: center;
+  margin: 0;
+}
+
+.features__blocks {
+  display: flex;
+  width: 1130px;
+  margin: auto;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.feature {
+  width: 350px; 
+}
