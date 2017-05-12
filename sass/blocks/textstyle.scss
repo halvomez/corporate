@@ -11,6 +11,10 @@
   }
 }
 
+.subtitle--white {
+  color: #ffffff;
+}
+
 .info {
   font-size: 16px;
   color: #282828;
@@ -18,4 +22,17 @@
 
 .feature__title {
   font-size: 22px;
+}
+
+.login-form__terms {
+  color: #a8aabc;
+  font-size: 16px;
+  & a {
+    color: #a8aabc;
+  }
+}
+
+.trial {
+  color: #f6f5f3;
+  font-size: 16px;
 }

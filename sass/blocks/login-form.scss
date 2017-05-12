@@ -1,0 +1,54 @@
+.login-form {
+  background-color: #323969;
+  display: flex;
+  flex-direction: column;
+  padding: 90px 150px 80px;
+  text-align: center;
+  & .title {
+    margin: 0 0 10px 0;
+  }
+  & .subtitle {
+    margin: 0 0 95px 0;
+  }
+  & form {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 50px;
+  }
+  & input[type="text"],
+  & input[type="email"],
+  & input[type="password"],
+  & .btn--try {
+    box-sizing: border-box;
+    width: 260px;
+    height: 50px;
+    font-size: 16px;
+    padding: 17px 30px;
+    text-transform: uppercase;
+    color: #f6f5f3;
+    background-color: #464c77;
+    border: none;
+  }
+   & .btn--try {
+     background-color: $elem-color;
+   }
+}
+
+.trial {
+  position: absolute;
+  right: 0;
+  height: 60px;
+  top: -80px;
+  width: 260px;
+  outline: 2px solid green;
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top:0;
+    width: 50px;
+    height: 100%;
+    background-color: bisque;
+  }
+}

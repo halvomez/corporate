@@ -81,12 +81,25 @@ body {
   .subtitle span {
     color: #fb8686; }
 
+.subtitle--white {
+  color: #ffffff; }
+
 .info {
   font-size: 16px;
   color: #282828; }
 
 .feature__title {
   font-size: 22px; }
+
+.login-form__terms {
+  color: #a8aabc;
+  font-size: 16px; }
+  .login-form__terms a {
+    color: #a8aabc; }
+
+.trial {
+  color: #f6f5f3;
+  font-size: 16px; }
 
 .features {
   background-color: #ececec;
@@ -176,3 +189,50 @@ body {
   width: 660px;
   margin: auto;
   font-size: 16px; }
+
+.login-form {
+  background-color: #323969;
+  display: flex;
+  flex-direction: column;
+  padding: 90px 150px 80px;
+  text-align: center; }
+  .login-form .title {
+    margin: 0 0 10px 0; }
+  .login-form .subtitle {
+    margin: 0 0 95px 0; }
+  .login-form form {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 50px; }
+  .login-form input[type="text"],
+  .login-form input[type="email"],
+  .login-form input[type="password"],
+  .login-form .btn--try {
+    box-sizing: border-box;
+    width: 260px;
+    height: 50px;
+    font-size: 16px;
+    padding: 17px 30px;
+    text-transform: uppercase;
+    color: #f6f5f3;
+    background-color: #464c77;
+    border: none; }
+  .login-form .btn--try {
+    background-color: #fb8686; }
+
+.trial {
+  position: absolute;
+  right: 0;
+  height: 60px;
+  top: -80px;
+  width: 260px;
+  outline: 2px solid green; }
+  .trial::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50px;
+    height: 100%;
+    background-color: bisque; }
