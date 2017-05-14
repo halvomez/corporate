@@ -36,3 +36,27 @@
   color: #f6f5f3;
   font-size: 16px;
 }
+
+
+.main-footer__title {
+  font-size: 22px;
+  line-height: 50px;
+  color: #282828;
+  margin: 0 0 20px 0;
+}
+
+.main-footer__info {
+  font-size: 14px;
+  line-height: 26px;
+  color: #282828;
+  opacity: 0.56;
+}
+
+.main-footer__support a,
+.main-footer__aboutus a {
+  font-size: 14px;
+  line-height: 26px;
+  color: #282828;;
+  text-decoration: none;
+  opacity: 0.66;
+}
