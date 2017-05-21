@@ -198,6 +198,7 @@ body {
 
 .partners {
   background-color: #21232a;
+  background-image: url("../img/partners-bg.jpg");
   padding: 110px 170px 40px; }
 
 .comment__block {
@@ -230,14 +231,37 @@ body {
 
 .partners__logo {
   width: 975px;
-  height: 65px;
+  height: 85px;
   display: flex;
   justify-content: space-between;
   margin: auto; }
   .partners__logo div {
     width: 140px;
-    height: 65px;
-    background-color: #4e4e5e; }
+    height: 100%; }
+  .partners__logo a {
+    display: block;
+    width: 140px;
+    height: 100%; }
+
+.partners__hits {
+  background-image: url("../img/partners-logo.png");
+  background-position: 0 0; }
+
+.partners__rvlvr {
+  background-image: url("../img/partners-logo.png");
+  background-position: -205px 0; }
+
+.partners__eat {
+  background-image: url("../img/partners-logo.png");
+  background-position: -415px 0; }
+
+.partners__igor {
+  background-image: url("../img/partners-logo.png");
+  background-position: -625px 0; }
+
+.partners__sienna {
+  background-image: url("../img/partners-logo.png");
+  background-position: -825px 0; }
 
 .new-features {
   display: flex;
