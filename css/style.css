@@ -333,7 +333,8 @@ body {
 .main-footer {
   display: flex;
   padding: 90px 330px 100px 150px;
-  justify-content: space-between; }
+  justify-content: space-between;
+  background-image: linear-gradient(50deg, #ffffff 82%, #fb8686 18%); }
 
 .main-footer__start {
   width: 235px; }
