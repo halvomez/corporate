@@ -24,4 +24,25 @@
 
 .feature {
   width: 350px; 
+  display: flex;
+  flex-direction: column;
+}
+
+.feature__icon {
+  width: 66px;
+  height: 66px;
+  border-radius: 100%;
+  margin: auto;
+}
+
+.photo {
+  background-image: url("../img/photo.png");
+}
+
+.airplane {
+  background-image: url("../img/airplane.png");
+}
+
+.bulb {
+  background-image: url("../img/bulb.png");
 }
