@@ -1,7 +1,34 @@
 .design {
-  padding: 135px 200px 145px 740px;
+  box-sizing: border-box;
+  height: 550px;
+  display: flex;
 }
 
+.design__triangle {
+  width: 680px;
+  height: 100%;
+  background-image: linear-gradient( 50deg, $elem-color 50%, $body-color 50%);
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  position: relative;
+  &::after {
+    position: absolute;
+    content: "";
+    width: 630px;
+    height: 370px;
+    background-image: url("../img/macbook.png");
+    top: 15%;
+    left: 60px;
+  }
+}
+
+.design__info {
+  width: 505px;
+  padding-top: 135px;
+  padding-right: 200px;
+  padding-bottom: 145px;
+  padding-left: 50px;
+}
 .design .title {
   margin: 0 0 18px 0;
 }

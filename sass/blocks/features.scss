@@ -1,7 +1,10 @@
 .features {
-  background-color: $back-color;
+  background-image: url("../img/features-bg.jpg");
+  background-repeat: no-repeat;
   padding-top: 130px;
   padding-bottom: 180px;
+  min-height: 670px;
+  box-sizing: border-box;
 }
 
 .features .title,
