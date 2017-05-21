@@ -13,11 +13,17 @@ body {
   flex-direction: column;
   align-items: center;
   padding-top: 220px;
-  min-height: 810px; }
+  min-height: 810px;
+  box-sizing: border-box;
+  background-color: #9dd76a;
+  background-image: url("../img/header-photo.jpg");
+  background-repeat: no-repeat; }
 
 .main-header h2 {
   font-size: 60px;
-  text-align: center; }
+  text-align: center;
+  padding: 0;
+  margin: 0 0 50px 0; }
 
 .play {
   box-sizing: border-box;
