@@ -3,12 +3,17 @@
 .btn {
   box-sizing: border-box;
   width: 190px;
-  padding-top: 16px;
+  padding-top: 18px;
+  padding-bottom: 16px;
   min-height: 50px;
   font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
   color: #ffffff;
   text-decoration: none;
   background-color: $elem-color;
   text-align: center;
+  text-transform: uppercase;
+  border-radius: 2px;
 }
 

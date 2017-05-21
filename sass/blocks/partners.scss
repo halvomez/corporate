@@ -24,18 +24,22 @@
 
 .comment__author {
   font-size: 22px;
+  line-height: 22px;
   color: $body-color;
 }
 
 .comment__position {
   font-size: 16px;
+  line-height: 16px;
   color: $elem-color;
 }
 
 .comment__text {
   font-size: 16px;
   line-height: 26px;
+  font-weight: 200;
   color: $body-color;
+  opacity: 0.66;
 }
 
 .partners__logo {

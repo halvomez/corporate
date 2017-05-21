@@ -8,10 +8,16 @@
   background-color: #9dd76a;
   background-image: url("../img/header-photo.jpg");
   background-repeat: no-repeat;
+  & p {
+    color: #282828;
+     opacity: 0.6;
+  }
 }
 
 .main-header h2 {
   font-size: 60px;
+  line-height: 75px;
+  font-weight: 200;
   text-align: center;
   padding: 0;
   margin: 0 0 50px 0;
@@ -38,6 +44,9 @@
     border-left: 20px solid #ffffff;
   }
   &:active::before {
-    border-left: 20px solid #000000;
+    border-left: 20px solid #8185a3;
+  }
+  &:active {
+    background-color: $elem-color;
   }
 }

@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Corporate</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Exo:100,400,400i,500,700" rel="stylesheet">
   </head>
 
   <body>
@@ -56,7 +57,7 @@
         <div class="design__info">
           <h2 class="title">new design</h2>
           <p class="subtitle">Resposive design, just need your tap <span>....</span></p>
-          <p class="design__descr">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida
+          <p class="info">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida
             at eget metus. Curabitur blandit tempus porttitor. Etiasem malesuada magn. Vestibulum felis euismod semper.
           </p>
         </div>
@@ -106,7 +107,7 @@
       <section class="new-features">
         <h2 class="title">new features</h2>
         <p class="subtitle">Some awesome features</p>
-        <p class="features__info">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida
+        <p class="info">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida
           at eget metus. Curabitur blandit tempus porttitor. Etiasem malesuada magn. Vestibulum felis euismod semper.</p>
       </section>
       <section class="login-form">
@@ -114,9 +115,18 @@
         <p class="subtitle subtitle--white">Over 1000 designers are using ...
         </p>
         <form action="#" method="post" name="login-form">
-          <input type="text" id="form-name" name="form-name" placeholder="fullname">
-          <input type="email" id="form-email" name="form-email" placeholder="your email">
-          <input type="password" id="form-pass" name="form-pass" placeholder="password">
+          <div class="form-wrapper">
+            <input type="text" class="form-name" id="form-name" name="form-name" placeholder="fullname">
+            <label for="form-name" class="label-name">fullname</label>
+          </div>
+          <div class="form-wrapper">
+            <input type="email" class="form-email" id="form-email" name="form-email" placeholder="your email">
+            <label for="form-email" class="label-email">your email</label>
+          </div>
+          <div class="form-wrapper">
+            <input type="password" class="form-pass" id="form-pass" name="form-pass" placeholder="password">
+            <label for="form-pass" class="label-pass">password</label>
+          </div>
           <a href="#" class="btn btn--red btn--try">try now</a>
           <p class="trial">30 days free trial for all</p>
         </form>

@@ -8,7 +8,7 @@
     margin: 0 0 10px 0;
   }
   & .subtitle {
-    margin: 0 0 95px 0;
+    margin: 0 0 75px 0;
   }
   & form {
     display: flex;
@@ -24,15 +24,37 @@
     width: 260px;
     height: 50px;
     font-size: 16px;
+    font-weight: 400;
     padding: 17px 30px;
     text-transform: uppercase;
     color: #f6f5f3;
     background-color: #464c77;
     border: none;
   }
-   & .btn--try {
-     background-color: $elem-color;
-   }
+  & .form-wrapper {
+    position: relative;
+  }
+  & .btn--try {
+    background-color: $elem-color;
+    margin-top: auto;
+  }
+  & label {
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: $elem-color;
+    position: absolute;
+    top: -25px;
+    left: 30px;
+    opacity: 0;
+  }
+}
+
+.form-name:focus~.label-name,
+.form-email:focus~.label-email,
+.form-pass:focus~.label-pass {
+  opacity: 1;
+  transition: 0.5s;
 }
 
 .trial {
@@ -45,7 +67,7 @@
     content: "";
     position: absolute;
     left: 10px;
-    top:5px;
+    top: 5px;
     width: 50px;
     height: 100%;
     background-image: url("../img/arrow-trial.png");
